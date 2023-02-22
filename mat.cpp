@@ -36,10 +36,10 @@ cout<< "Enter person Name: " <<endl;
         if(a=="Previous"){
 
                 if(j!=0){
-                        if(j+1%2!=0){
-                    cout <<"The truth, Road is- " <<fal <<" So you Want to Reverse direction"<<endl;
-                }else if(j+1%2==0){
-                cout <<"lies,  Road is- " <<fal <<"So you Want to Reverse direction"<<endl;
+                        if(j%2!=0){
+                    cout <<"Lies, go Road no. " <<fal <<" . So you Want to Reverse direction"<<endl;
+                }else if(j%2==0){
+                cout <<"The truth, He/She go Road no.- " <<fal <<" . So you Want to Reverse direction"<<endl;
                 }
                 }else{
                 cout<< "No man go there. ";
